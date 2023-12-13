@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LabMobile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="lesson">Задание: \n
+1. Создать программу-резюме из 4х экранных
+форм \n \n
+1. Главная форма \n
+2. Станица с информацией о ВУЗе (логотип,
+название, адрес) \n
+3. Станица с информацией о Задании на
+лабораторную работу \n
+4. Станица с информацией о
+исполнителях(Фотографии, ФИО, краткое резюме) \n</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SecondFragment">
+
+    <TextView
+        android:id="@+id/title_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="О разработчиках"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/first_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Гуров М.А."
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_second"
+        />
+
+    <TextView
+        android:id="@+id/second_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Базарбаев А.А."
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_developer"
+        />
+
+    <TextView
+        android:id="@+id/third_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Финоенов Я.В."
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/second_developer"
+        />
+
+    <TextView
+        android:id="@+id/four_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Габибов Р.А."
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/third_developer"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
